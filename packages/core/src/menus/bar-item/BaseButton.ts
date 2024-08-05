@@ -126,6 +126,11 @@ abstract class BaseButton implements IBarItem {
     this.setActive()
     this.setDisabled()
   }
+
+  removeIcon() {
+    const { $button } = this
+    $button.text(this.menu.title)
+  }
 }
 
 export default BaseButton

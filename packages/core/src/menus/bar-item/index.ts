@@ -19,6 +19,7 @@ export interface IBarItem {
   $elem: Dom7Array
   menu: MenuType
   changeMenuState: () => void
+  removeIcon: () => void
 }
 
 // menu -> barItem
